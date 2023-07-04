@@ -1,9 +1,13 @@
 /** @format */
+b();
 
 function b() {
  console.log("called function b");
 }
-b();
-console.log(a);
-var a = 10;
-console.log(a);
+let d = 10;
+
+function c() {
+    console.log('d is: ', d);
+}
+
+c();
